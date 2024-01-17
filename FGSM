@@ -10,7 +10,7 @@ pretrained_model = tf.keras.applications.MobileNetV2(include_top=True, weights='
 pretrained_model.trainable = False
 
 # Path to your local image file
-image_path = '/home/abanoub/Downloads/ca (2).jpg'
+image_path = '/path/to/your/image/ca (2).jpg'
 
 # Load and preprocess the image
 image = keras_image.load_img(image_path, target_size=(224, 224))
